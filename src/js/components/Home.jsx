@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Me from "./Me";
+import About from "./About";
+import Skills from "./Skills";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
@@ -11,6 +13,8 @@ const Home = () => {
 		<div>
 			<Navbar />
 			<Me />
+			<About />
+			<Skills />
 		</div>
 	);
 };
