@@ -4,13 +4,11 @@ import avatar from "../../img/me.png";
 
 const About = () => {
     return (
-        <div className="">
+        <div className="container mt-5">
             <div className="row container-about d-flex justify-content-center align-items-center ">
-                <div className="col-6 ">
-                    <h2>Sobre mí</h2>
-                    <p>Soy desarrollador de software con experiencia en sistemas críticos para los sectores de seguros y gestión pública. A lo largo de mi carrera he trabajado con bases de datos, reglas de negocio complejas, cálculos financieros y procesos de validación de información, donde la precisión y la confiabilidad son clave. Este contacto constante con la información y su impacto directo en los procesos despertó mi interés por el análisis de datos y por cómo utilizar los datos para mejorar procesos y apoyar la toma de decisiones.
-
-                        En mi experiencia profesional he participado en el ciclo completo de desarrollo de software, manteniendo y modernizando sistemas heredados, optimizando consultas SQL y asegurando la integridad de los datos en plataformas de alto impacto operativo. El análisis de problemas, la identificación de patrones y la comprensión profunda del negocio han sido parte central de mi trabajo diario, habilidades que hoy busco aplicar y fortalecer dentro del ámbito del data analysis.</p>
+                <div className="col-5">
+                    <h2>Sobre <strong className="text-yellow">mí</strong></h2>
+                    <p>Me desempeño como <strong className="text-yellow">Desarrollador </strong>priorizando la solidez en <strong className="text-yellow">sistemas de alto impacto. </strong> Mi experiencia se centra en la programación de lógica de negocio compleja (como cálculos financieros), <strong className="text-yellow">asegurando la integridad de datos </strong> y optimizando el rendimiento de consultas SQL. Utilizo el análisis de datos para impulsar la mejora continua en la confiabilidad de los procesos</p>
                 </div>
                 <div className="col-4 mt-5 mb-5">
                     <div class="shape-container">
