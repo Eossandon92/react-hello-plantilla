@@ -114,6 +114,26 @@ body {
     left: 22%;
 }
 
+.img-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.img-wrapper::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    height: 25px;
+
+    background: rgba(0, 0, 0, 1);
+    filter: blur(25px);
+    border-radius: 50%;
+    z-index: -1;
+}
+
 @theme inline {
     --radius-sm: calc(var(--radius) - 4px);
     --radius-md: calc(var(--radius) - 2px);

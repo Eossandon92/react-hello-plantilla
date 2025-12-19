@@ -133,7 +133,10 @@ export function TypingAnimation({
   return (
     <MotionComponent
       ref={elementRef}
-      className={cn("leading-tight tracking-[-0.02em]", className)}
+      className={cn(
+        "block whitespace-pre-wrap leading-[1.8] tracking-normal",
+        className
+      )}
       {...props}>
       {displayedText}
       {shouldShowCursor && (
